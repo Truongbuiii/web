@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    max-width: 2030px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 230px;
+    background-color:#000000;
+}
+
+header img {
+    width: 200px;
+    padding: 10px 250px;
+}
+header .icon img{
+width:20px;
+height:20px;
+}
+
+
+nav {
+    height: 50px;
+    background-color:#a5b479d7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul h1 {
+    list-style: none;
+    display: flex;
+}
+
+nav .menu ul h1 li {
+    padding: 0 20px;
+    line-height: 45px;
+}
+
+nav .menu ul h1 li a {
+    color: rgba(0, 0, 0, 0.849);
+    font-size: 23px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+
+nav .menu ul h1 li a img {
+    width: 33px;
+}
+
+nav .search {
+    line-height: 35px;
+    float :right;
+    width: 400px;
+    margin:15px;
+}
+
+nav .search input {
+    width: 150px;
+}
+
+section  .banner img {
+width:2030px;
+height:900px;
+
+}
+article {
+    background-color: rgb(255, 255, 255);
+    color: bisque;
+    height: 1500px;
+}
+
+
+article .danhmuc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+article .danhmuc1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+article .danhmuc .sanpham {
+    width: 380px;
+    padding: 10px;
+    border: 5px solid #6b6b6b;
+    margin: 10px;
+    border-radius: 10%;
+    box-shadow: 10px;
+    height : 480px;
+}
+article .danhmuc1 .sanpham1 {
+    width: 350px;
+    padding: 10px;
+    border: 5px solid #6b6b6b;
+    margin: 10px;
+    border-radius: 10%;
+    box-shadow: 10px;
+    height : 480px;
+}
+article .danhmuc.sanpham h4{
+    font: size 300px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+article .danhmuc1 .sanpham1 h4{
+    font: size 300px;;  
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+
+article .danhmuc .sanpham img {
+    width: 95%;
+    padding:2%;
+}
+
+article .danhmuc1 {
+    padding-top: 100px;
+} 
+
+article .danhmuc1 .sanpham1 a h4{
+    font-size: 50px;
+    width: 100%;
+    text-decoration: none;
+
+} 
+
+article .danhmuc1 .sanpham1 img {
+    width: 100%;
+    padding: 2%;
+}
+article .danhmuc1 .sanpham1 img {
+    width: 95%;
+    padding:2%;
+    
+}
+
+table {
+    width: 100%;
+    height: 350px;
+    background-color:#a5b479d7;
+}
+
+table .bangthongtin .thongtin{
+    border:10px ;
+    margin: 10px;
+}
