@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiệm Cái Đồng Hồ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <header>
+      <a href="#">
+        <img src="images/logo.jpg" alt="logo">
+      </a>
+    </div>
+    
+    <div class="icon">
+        <a href="#">
+            <img src="images/bieutuonggiohang.jpg" alt ="giohang">
+          </a>
+          <a href="#">
+            <img src="images/bieutuongdangnhap.jpg" alt ="giohang">
+          </a>
+          
+       </div> 
+  
+</header>
+   <nav>
+      <div class="menu">
+        <ul><h1>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Danh mục sản phẩm</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </h1>
+        </ul>
+      </div>
+      <div class="search">
+          <input type="search" placeholder="Hãy tìm tôi........">
+          <button>Tìm kiếm</button>
+      </div>
+   </nav>
+
+
+ <section> 
+      <div class="banner">
+    <img src ="images\banner.gif" alt="banner">
+</div>
+</section>
+ 
+
+   <article>
+      <div class="danhmuc">
+          <div class="sanpham">
+              <h4><a href="#"><img src="images/1.gif" alt="anh1">Đồng hồ treo tường xinh xắn dễ thương</a></h4>
+          </div>
+          <div class="sanpham">
+              <h4><a href="#"><img src="images/1.gif" alt="anh1">Đồng hồ treo tường xinh xắn dễ thương</a></h4>
+          </div>
+          <div class="sanpham">
+              <h4><a href="#"><img src="images/1.gif" alt="anh1">Đồng hồ treo tường xinh xắn dễ thương</a></h4>
+          </div>
+          <div class="sanpham">
+            <h4><a href="#"><img src="images/1.gif" alt="anh1">Đồng hồ treo tường xinh xắn dễ thương</a></h4>
+        </div>
+      </div>
+
+      <div class="danhmuc1">
+        <div class="sanpham1">
+            <h4><a href="#"><img src="images/1.gif" alt="anh1">Đồng hồ treo tường xinh xắn dễ thương</a></h4>
+        </div>
+        <div class="sanpham1">
+            <h4><a href="#"><img src="images/1.gif" alt="anh1">Đồng hồ treo tường xinh xắn dễ thương</a></h4>
+        </div>
+        <div class="sanpham1">
+            <h4><a href="#"><img src="images/1.gif" alt="anh1">Đồng hồ treo tường xinh xắn dễ thương</a></h4>
+        </div>
+        <div class="sanpham1">
+            <h4><a href="#"><img src="images/1.gif" alt="anh1">Đồng hồ treo tường xinh xắn dễ thương</a></h4>
+        </div>
+    </div>
+
+  
+
+
+   </article>
+
+<table>
+    <div class="bangthongtin">
+        <div class = "thongtin">
+
+        <ul>
+            <li>
+            <a>
+
+            </a>
+            </li>
+            <li>
+
+            </li>
+            <li>
+
+            </li>
+        </ul>
+        </div>
+    </div>
+</table>
+</body>
+</html>
