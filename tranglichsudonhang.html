@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tranglichsudonhang.css">
+    <title>Lịch Sử Đơn Hàng</title>
+</head>
+<body>
+  <!-- Thanh điều hướng -->
+  <div class="navbar">
+    <!-- Logo bên trái -->
+    <div class="logo">
+        <a href="#"><img src="images bán đồng hồ/logo_tiemcaidongho.png" alt="Logo"></a>
+    </div>
+
+    <div class="search-container">
+        <input type="text" placeholder="Hãy tìm tôi...">
+        <i class="fa-solid fa-magnifying-glass" alt="timkiem"></i>
+    </div>
+
+    <div class="icon-container">
+        <i class="fa-solid fa-house-chimney" alt="trangchu"></i>
+        <i class="fa-solid fa-bag-shopping" alt="Giỏ hàng"></i> <!-- Icon giỏ hàng -->
+        <i class="fa-solid fa-user toggle-submenu" alt="Đăng nhập"></i>
+             <!-- Submenu chứa các tùy chọn -->
+            <ul class="submenu" id="choiceContainer">
+                <li><a href="dangnhap.html">Đăng nhập</a></li>
+                <li><a href="dangky.html">Đăng ký</a></li>
+            </ul>
+    </div>
+</div>
+
+
+
+
+ <!-- Thanh menu hàng ngang màu xám -->
+ <div class="horizontal-menu">
+    <ul>
+        <li><a href="tiemcaidongho.html">Trang chủ</a></li>
+        <li><a href="trangdonghonam.html">Đồng hồ nam</a></li>
+        <li><a href="trangdonghonu.html">Đồng hồ nữ</a></li>
+        <li><a href="trangdonghotreotuong.html">Đồng hồ treo tường</a></li>
+        <li><a href="trangdonghobaothuc.html">Đồng hồ báo thức</a></li>
+        <li><a href="trangdonghodeban.html">Đồng hồ để bàn</a></li>
+        <li><a href="#footer">Liên hệ</a></li>
+    </ul>
+</div>
+
+    <div class="order-history-container">
+        <h1>Lịch Sử Đơn Hàng</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ngày Đặt Hàng</th>
+                    <th>Sản Phẩm</th>
+                    <th>Tổng Số Tiền</th>
+                    <th>Trạng Thái</th>
+                    <th>Chi Tiết</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-10-01</td>
+                    <td>Cà Phê Sữa Đá</td>
+                    <td>50.000 VNĐ</td>
+                    <td>Đã Giao</td>
+                    <td><button>Xem Chi Tiết</button></td>
+                </tr>
+                <tr>
+                    <td>2024-10-15</td>
+                    <td>Trà Sữa Trân Châu</td>
+                    <td>70.000 VNĐ</td>
+                    <td>Đang Xử Lý</td>
+                    <td><button>Xem Chi Tiết</button></td>
+                </tr>
+                <tr>
+                    <td>2024-10-20</td>
+                    <td>Sinamon Roll</td>
+                    <td>30.000 VNĐ</td>
+                    <td>Đã Giao</td>
+                    <td><button>Xem Chi Tiết</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+
+    <!-- Khu vực ở cuối trang có nền đen -->
+ <div class="footer" id="footer">
+     <p>Tiệm cái đồng hồ</p>
+ 
+     <div class="footer-content">
+         <div class="footer-column">
+             <i class="fa-solid fa-clock"></i>
+             <p>Thời gian hoạt động: 9:00-22:00 mỗi ngày </p>
+         <div class="separator"></div>
+         
+         <div class="footer-column">
+            <i class="fa-solid fa-location-dot"></i>
+             <p>Địa chỉ: 1234 Cái đồng hồ, Thành phố Hồ Chí Minh</p>
+         </div>
+         
+         <div class="separator"></div>
+         
+         <div class="footer-column">
+             <i class="fa-solid fa-phone"></i>
+             <p>Liên hệ: 1900 0404</p>
+         </div>
+     </div>
+ </div>
+</body>
+</html>

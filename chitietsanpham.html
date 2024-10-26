@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm</title>
+    <link rel="stylesheet" href="chitiet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+     <!-- Thanh điều hướng -->
+     <div class="navbar">
+        <!-- Logo bên trái -->
+        <div class="logo">
+            <a href="#"><img src="images bán đồng hồ/logo_tiemcaidongho.png" alt="Logo"></a>
+        </div>
+
+        <div class="search-container">
+            <input type="text" placeholder="Hãy tìm tôi...">
+            <i class="fa-solid fa-magnifying-glass" alt="timkiem"></i>
+        </div>
+
+        <div class="icon-container">
+            <i class="fa-solid fa-house-chimney" alt="trangchu"></i>
+            <i class="fa-solid fa-bag-shopping" alt="Giỏ hàng"></i> <!-- Icon giỏ hàng -->
+            <i class="fa-solid fa-user toggle-submenu" alt="Đăng nhập"></i>
+                 <!-- Submenu chứa các tùy chọn -->
+                <ul class="submenu" id="choiceContainer">
+                    <li><a href="dangnhap.html">Đăng nhập</a></li>
+                    <li><a href="dangky.html">Đăng ký</a></li>
+                </ul>
+        </div>
+    </div>
+
+
+    
+
+     <!-- Thanh menu hàng ngang màu xám -->
+     <div class="horizontal-menu">
+        <ul>
+            <li><a href="tiemcaidongho.html">Trang chủ</a></li>
+            <li><a href="trangdonghonam.html">Đồng hồ nam</a></li>
+            <li><a href="trangdonghonu.html">Đồng hồ nữ</a></li>
+            <li><a href="trangdonghotreotuong.html">Đồng hồ treo tường</a></li>
+            <li><a href="trangdonghobaothuc.html">Đồng hồ báo thức</a></li>
+            <li><a href="trangdonghodeban.html">Đồng hồ để bàn</a></li>
+            <li><a href="#footer">Liên hệ</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="product-image">
+            <img src="images bán đồng hồ/tt2.png" alt="Tên sản phẩm">
+        </div>
+        <div class="product-info">
+            <h1>Tên Sản Phẩm</h1>
+            <p class="price">Giá: 100.000 VNĐ</p>
+            <p class="description">Mô tả chi tiết về sản phẩm. Sản phẩm này có tính năng nổi bật và rất hữu ích cho người sử dụng.</p>
+            <button class="add-to-cart">Thêm vào giỏ hàng</button>
+        </div>
+    </div>
+
+    <!-- Mục Gợi Ý Sản Phẩm -->
+    <div class="suggestions">
+        <center><h2>Sản Phẩm Gợi Ý</h2></center>
+        <div class="suggested-product">
+            <img src="images bán đồng hồ/tt3.png"Sản phẩm gợi ý 1">
+            <p>Tên Sản Phẩm Gợi Ý 1</p>
+            <p class="price">Giá: 90.000 VNĐ</p>
+        </div>
+        <div class="suggested-product">
+            <img src="images bán đồng hồ/tt4.png" alt="Sản phẩm gợi ý 2">
+            <p>Tên Sản Phẩm Gợi Ý 2</p>
+            <p class="price">Giá: 120.000 VNĐ</p>
+        </div>
+        <div class="suggested-product">
+            <img src="images bán đồng hồ/tt5.png" alt="Sản phẩm gợi ý 3">
+            <p>Tên Sản Phẩm Gợi Ý 3</p>
+            <p class="price">Giá: 110.000 VNĐ</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+    <!-- Khu vực ở cuối trang có nền đen -->
+ <div class="footer" id="footer">
+     <p>Tiệm cái đồng hồ</p>
+ 
+     <div class="footer-content">
+         <div class="footer-column">
+             <i class="fa-solid fa-clock"></i>
+             <p>Thời gian hoạt động: 9:00-22:00 mỗi ngày </p>
+         <div class="separator"></div>
+         
+         <div class="footer-column">
+            <i class="fa-solid fa-location-dot"></i>
+             <p>Địa chỉ: 1234 Cái đồng hồ, Thành phố Hồ Chí Minh</p>
+         </div>
+         
+         <div class="separator"></div>
+         
+         <div class="footer-column">
+             <i class="fa-solid fa-phone"></i>
+             <p>Liên hệ: 1900 0404</p>
+         </div>
+     </div>
+ </div>
+</body>
+</html>

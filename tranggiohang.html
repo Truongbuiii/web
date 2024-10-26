@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tranggiohang.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Giỏ Hàng</title>
+</head>
+<body>
+         <!-- Thanh điều hướng -->
+         <div class="navbar">
+            <!-- Logo bên trái -->
+            <div class="logo">
+                <a href="#"><img src="images bán đồng hồ/logo_tiemcaidongho.png" alt="Logo"></a>
+            </div>
+    
+            <div class="search-container">
+                <input type="text" placeholder="Hãy tìm tôi...">
+                <i class="fa-solid fa-magnifying-glass" alt="timkiem"></i>
+            </div>
+    
+            <div class="icon-container">
+                <i class="fa-solid fa-house-chimney" alt="trangchu"></i>
+                <i class="fa-solid fa-bag-shopping" alt="Giỏ hàng"></i> <!-- Icon giỏ hàng -->
+                <i class="fa-solid fa-user toggle-submenu" alt="Đăng nhập"></i>
+                     <!-- Submenu chứa các tùy chọn -->
+                    <ul class="submenu" id="choiceContainer">
+                        <li><a href="dangnhap.html">Đăng nhập</a></li>
+                        <li><a href="dangky.html">Đăng ký</a></li>
+                    </ul>
+            </div>
+        </div>
+    
+    
+        
+    
+         <!-- Thanh menu hàng ngang màu xám -->
+         <div class="horizontal-menu">
+            <ul>
+                <li><a href="tiemcaidongho.html">Trang chủ</a></li>
+                <li><a href="trangdonghonam.html">Đồng hồ nam</a></li>
+                <li><a href="trangdonghonu.html">Đồng hồ nữ</a></li>
+                <li><a href="trangdonghotreotuong.html">Đồng hồ treo tường</a></li>
+                <li><a href="trangdonghobaothuc.html">Đồng hồ báo thức</a></li>
+                <li><a href="trangdonghodeban.html">Đồng hồ để bàn</a></li>
+                <li><a href="#footer">Liên hệ</a></li>
+            </ul>
+        </div>
+    
+    <div class="cart-container">
+        <h1>Giỏ Hàng của Bạn</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sản Phẩm</th>
+                    <th>Giá</th>
+                    <th>Số Lượng</th>
+                    <th>Tổng</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="product-info">
+                            <img src="images bán đồng hồ/nu1.jpg" alt="Cà Phê" class="product-image">
+                            Cà Phê
+                        </div>
+                    </td>
+                    <td>30.000 VND</td>
+                    <td>
+                        <div class="quantity-controls">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </td>
+                    <td>30.000 VND</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="product-info">
+                            <img src="images bán đồng hồ/nu2.jpg" alt="Trà Sữa" class="product-image">
+                            Trà Sữa
+                        </div>
+                    </td>
+                    <td>25.000 VND</td>
+                    <td>
+                        <div class="quantity-controls">
+                            <button class="decrease">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increase">+</button>
+                        </div>
+                    </td>
+                    <td>25.000 VND</td>
+                </tr>
+                <tr>
+                    <td>Tổng Cộng</td>
+                    <td colspan="3">55.000 VND</td>
+                </tr>
+            </tbody>
+        </table>
+        <center>
+        <button onclick="window.location.href='checkout.html'">Thanh Toán</button>
+        </center>
+    </div>
+    
+    <script>
+        const quantityControls = document.querySelectorAll('.quantity-controls');
+
+        quantityControls.forEach(control => {
+            const quantitySpan = control.querySelector('.quantity');
+            const decreaseButton = control.querySelector('.decrease');
+            const increaseButton = control.querySelector('.increase');
+
+            decreaseButton.addEventListener('click', () => {
+                let quantity = parseInt(quantitySpan.textContent);
+                if (quantity > 1) {
+                    quantitySpan.textContent = quantity - 1;
+                }
+            });
+
+            increaseButton.addEventListener('click', () => {
+                let quantity = parseInt(quantitySpan.textContent);
+                quantitySpan.textContent = quantity + 1;
+            });
+        });
+    </script>
+        <script src="main.js"></script>
+
+        <!-- Khu vực ở cuối trang có nền đen -->
+     <div class="footer" id="footer">
+         <p>Tiệm cái đồng hồ</p>
+     
+         <div class="footer-content">
+             <div class="footer-column">
+                 <i class="fa-solid fa-clock"></i>
+                 <p>Thời gian hoạt động: 9:00-22:00 mỗi ngày </p>
+             <div class="separator"></div>
+             
+             <div class="footer-column">
+                <i class="fa-solid fa-location-dot"></i>
+                 <p>Địa chỉ: 1234 Cái đồng hồ, Thành phố Hồ Chí Minh</p>
+             </div>
+             
+             <div class="separator"></div>
+             
+             <div class="footer-column">
+                 <i class="fa-solid fa-phone"></i>
+                 <p>Liên hệ: 1900 0404</p>
+             </div>
+         </div>
+     </div>
+</body>
+</html>
